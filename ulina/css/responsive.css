@@ -1,0 +1,689 @@
+@media screen and (max-width:1169px) {
+    .nav-main ul li {
+        padding: 39px 16px;
+    }
+
+    #sale-banner {
+        z-index: 111;
+    }
+
+    #sale-banner::after {
+        z-index: -1;
+    }
+
+    #sale-banner::before {
+        z-index: -1;
+        left: 360px;
+        bottom: 110px;
+    }
+
+    h5.width {
+        width: 77%;
+    }
+
+    .text-part h3 {
+        font-size: 19px;
+    }
+
+    #featured-product-main {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #shop-category-banner {
+        padding: 40px 0;
+    }
+
+    #about-banner {
+        margin-top: 0;
+    }
+
+    .modal-text h2 {
+        font-size: 25px;
+    }
+
+    .modal-img {
+        padding-top: 75px;
+    }
+
+    .modal-img img {
+        width: 290px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .man {
+        padding-top: 15px;
+    }
+
+    .man img {
+        width: 220px;
+        height: auto;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #about-banner {
+        overflow: hidden;
+        height: auto;
+    }
+
+    .featured-text-main h2 {
+        font-size: 42px;
+    }
+
+    .modal-text h2 {
+        font-size: 24px;
+    }
+
+    .about-text-main {
+        padding-top: 160px;
+    }
+
+    .about-card-main {
+        padding-top: 70px;
+    }
+
+    #brands-main {
+        padding-top: 40px;
+    }
+
+    #facility-banner {
+        padding: 40px 0;
+    }
+
+    #featured-product-main {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .logo-col {
+        width: 20%;
+    }
+
+    .nav-col {
+        width: 60%;
+    }
+
+    .social-main {
+        text-align: left;
+    }
+
+    .nav-main ul li {
+        padding: 39px 12px;
+    }
+
+    .social-main ul li {
+        padding: 0 14px;
+    }
+
+    .sale-text-main h2 {
+        font-size: 45px;
+    }
+
+    .sale-img-main::after {
+        display: none;
+    }
+
+    .featured-img-col {
+        display: none;
+    }
+
+    .featured-text-col {
+        width: 100%;
+    }
+
+    .modal-text {
+        padding-left: 25px;
+    }
+
+    .modal-text h2 {
+        font-size: 22px;
+    }
+
+    .modal-main {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .modal-text {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(209, 204, 204, 0.6);
+    }
+
+    .modal-img {
+        width: 100%;
+    }
+
+    .adviser-txt h4 {
+        font-size: 14px;
+    }
+
+    .informatio-col {
+        width: 50%;
+    }
+
+    .address-col {
+        width: 50%;
+    }
+
+    .info-col {
+        width: 50%;
+    }
+
+    .address-main {
+        height: 300px;
+    }
+
+    .info-main {
+        padding-top: 30px;
+    }
+
+    .bubble-col {
+        display: none;
+    }
+
+    .about-text-main h2 {
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .nav-main ul li {
+        padding: 39px 9px;
+    }
+
+    .social-main ul li {
+        padding: 0 11px;
+    }
+
+    #sale-banner {
+        height: 675px;
+    }
+
+    .sale-img-main img {
+        width: 100%;
+    }
+
+    .sale-text-main h2 {
+        font-size: 40px;
+    }
+
+    .bubbles-main {
+        position: relative;
+        z-index: -111;
+    }
+
+    .about-text-main h2 {
+        font-size: 30px;
+    }
+
+    #about-banner {
+        height: 450px;
+    }
+
+    .about-text-main {
+        padding-top: 120px;
+    }
+
+    .about-card-main {
+        padding-top: 45px;
+    }
+
+    .about-card-main .slick-dots {
+        bottom: -38px;
+    }
+
+    .title-main h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo-col {
+        width: 20%;
+    }
+
+    .nav-col {
+        width: 40%;
+    }
+
+    .social-col {
+        width: 40%;
+    }
+
+    .nav-main {
+        position: static;
+    }
+
+    .nav-main ul {
+        display: none;
+    }
+
+    .nav-main .bar-btn {
+        display: unset;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        z-index: 11111;
+    }
+
+    .nav-main.open-nav .times-btn {
+        display: unset;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        z-index: 111;
+    }
+
+    .nav-main.open-nav .bar-btn {
+        display: none;
+    }
+
+    .nav-main.open-nav .times-btn {
+        display: unset;
+        z-index: 111111;
+    }
+
+    .nav-main ul {
+        display: none;
+        position: fixed;
+        width: 300px;
+        height: 100%;
+        top: 99px;
+        right: 0;
+        z-index: 111111;
+        background-color: #84BABE;
+    }
+
+    .nav-main.open-nav ul {
+        display: unset;
+    }
+
+    .nav-main ul li {
+        display: block;
+        padding: 15px;
+        border-bottom: 1px solid gray;
+    }
+
+    .nav-main ul li:first-child {
+        border-bottom: 1px solid gray;
+    }
+
+    .nav-main.open-nav ul li a{
+        color: #000;
+    }
+
+    #sale-banner {
+        height: 615px;
+    }
+
+    .sale-text-main {
+        padding-top: 90px;
+    }
+
+    .sale-text-main h2 {
+        font-size: 34px;
+    }
+
+    .about-text-main h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .about-card-main {
+        padding-top: 25px;
+    }
+
+    .adviser-txt h4 {
+        font-size: 18px;
+    }
+
+    .address-main {
+        height: 328px;
+    }
+
+    .informatio-main {
+        padding-top: 50px;
+    }
+
+    .address-main {
+        padding-top: 55px;
+    }
+
+    .footer-bottom-main .bottom-text {
+        width: 40%;
+    }
+
+    .footer-bottom-main .bottom-ul {
+        width: 60%;
+    }
+
+    .info-main {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width:639px) {
+    #sale-banner {
+        height: 454px;
+    }
+
+    .sale-text-col {
+        width: 60%;
+    }
+
+    .sale-img-col {
+        width: 40%;
+    }
+
+    .sale-text-main {
+        padding-top: 55px;
+    }
+
+    #sale-banner {
+        height: 420px;
+    }
+
+    #sale-banner::after {
+        display: none;
+    }
+
+    #sale-banner::before {
+        left: 200px;
+        top: 100px;
+    }
+
+    #featured-banner {
+        padding: 45px 0;
+    }
+
+    #facility-banner {
+        padding: 30px 0;
+    }
+
+    .title-main h2 {
+        font-size: 40px;
+    }
+
+    #latest-arrival-main {
+        padding-bottom: 25px;
+    }
+
+    #featured-product-main {
+        padding: 20px 0;
+    }
+
+    .card-top {
+        padding-top: 20px;
+    }
+
+    .card-advise {
+        padding-bottom: 25px;
+    }
+
+    #brands-main {
+        padding: 30px 0;
+    }
+
+    .modal-img {
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .modal-img.man img {
+        width: 220px;
+    }
+
+    .modal-img img {
+        width: 353px;
+    }
+
+    .about-text-main h2 {
+        font-size: 21px;
+    }
+
+    .footer-bottom-main .bottom-text {
+        width: 35%;
+    }
+
+    .footer-bottom-main .bottom-ul {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    #sale-banner::before {
+        display: none;
+    }
+
+    #sale-banner::after {
+        display: none;
+    }
+
+    .sale-img-col {
+        display: none;
+    }
+
+    .sale-text-col {
+        width: 100%;
+    }
+
+    .sale-slider-main .slick-dots {
+        text-align: center;
+        right: 0;
+    }
+
+    .nav-col {
+        width: 30%;
+    }
+
+    .social-main {
+        padding-top: 20px;
+    }
+
+    .nav-main .bar-btn {
+        top: 22px;
+    }
+
+    .logo-main {
+        padding: 15px 0;
+    }
+
+    .title-main h2 {
+        font-size: 35px;
+    }
+
+    .featured-text-main h2 {
+        font-size: 35px;
+    }
+
+    .featured-text-main a {
+        margin-left: 25px;
+    }
+
+    .featured-text-main .featured-timer .timer h4 {
+        width: 63px;
+        height: 63px;
+        padding: 12px 15px;
+    }
+
+    .featured-text-main .featured-timer .timer h6 {
+        padding-top: 15px;
+    }
+
+    #featured-banner {
+        padding: 35px 0;
+    }
+
+    h5.width {
+        width: 82%;
+    }
+
+    .about-text-col {
+        width: 100%;
+    }
+
+    .about-card-col {
+        width: 100%;
+    }
+
+    .about-text-main {
+        padding-top: 30px;
+    }
+
+    #shop-category-banner {
+        padding: 15px 0;
+    }
+
+    #about-banner {
+        height: 535px;
+    }
+
+    .about-banner-main {
+        position: static;
+    }
+
+    .informatio-main input {
+        width: 185px;
+    }
+
+    .address-main {
+        height: 363px;
+    }
+
+    .footer-bottom-main .bottom-text {
+        width: 100%;
+    }
+
+    .footer-bottom-main .bottom-ul {
+        width: 100%;
+        text-align: unset;
+    }
+
+    .footer-bottom-main .bottom-ul li {
+        padding: 5px;
+    }
+
+    .featured-text-main .featured-timer .timer::after {
+        top: 2px;
+    }
+
+    .nav-main ul {
+        top: 75px;
+    }
+
+    .category-slider-main .slick-dots {
+        bottom: -35px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .nav-main.open-nav .times-btn{
+        top: 22px;
+    }
+
+    .logo-col {
+        width: 40%;
+    }
+
+    .social-col {
+        width: 60%;
+    }
+
+    .social-main {
+        padding-top: 2px;
+    }
+
+    .sale-text-main {
+        padding-top: 40px;
+    }
+
+    .featured-text-main .featured-timer .timer h4 {
+        width: 50px;
+        height: 50px;
+        padding: 8px;
+        font-size: 25px;
+    }
+
+    .featured-text-main .featured-timer .timer::after {
+        top: -5px;
+    }
+
+    .featured-text-main h2 {
+        font-size: 30px;
+    }
+
+    .title-main h2 {
+        font-size: 30px;
+    }
+
+    .cate-text h3 {
+        font-size: 24px;
+    }
+
+    .about-text-main {
+        padding-top: 30px;
+    }
+
+    .about-text-main h2 {
+        line-height: 5px;
+    }
+
+    .card-col {
+        padding: 0;
+    }
+
+    #about-banner {
+        height: 550px;
+    }
+
+    .footer-top {
+        padding-bottom: 10px;
+    }
+
+    .address-main {
+        height: 329px;
+    }
+
+    .info-main {
+        padding-top: 20px;
+    }
+
+    .informatio-main input {
+        width: 165px;
+        padding: 0 10px;
+    }
+
+    .info-main .w-fifty {
+        width: 42%;
+    }
+
+    .footer-bottom-main .bottom-ul li {
+        padding: 4px;
+    }
+
+    /* .product-col {
+        padding: 0;
+    } */
+
+    .category-slider-col {
+        padding: 0;
+    }
+
+    .featured-text-main a {
+        margin-left: 5px;
+        width: 140px;
+    }
+
+    .informatio-main p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
